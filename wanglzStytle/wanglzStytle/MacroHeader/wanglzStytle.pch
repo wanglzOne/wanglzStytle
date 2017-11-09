@@ -1,0 +1,19 @@
+//
+//  wanglzStytle.pch
+//  wanglzStytle
+//
+//  Created by bhqm on 2017/11/9.
+//  Copyright © 2017年 wanglz. All rights reserved.
+//
+
+#ifndef wanglzStytle_pch
+#define wanglzStytle_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "commonHeader.h"
+
+
+#endif /* wanglzStytle_pch */
