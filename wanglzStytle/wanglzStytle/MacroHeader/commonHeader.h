@@ -10,7 +10,34 @@
 #define commonHeader_h
 
 #import "MacroStatic.h"
+
 #import "MacroFunction.h"
+
+
+#pragma mark ----------pods标题管理---------
+
+#import <AFNetworking/AFNetworking.h>
+
+#import <SDWebImage/UIButton+WebCache.h>
+
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
+// 在调用约束方法和设置约束参数时省掉mas_前缀 (这两个宏必须放在引入Masonry头文件之前)
+#define MAS_SHORTHAND
+
+#define MAS_SHORTHAND_GLOBALS
+
+#import <Masonry/Masonry.h>
+
+#import <MJRefresh/MJRefresh.h>
+
+#import <ScottAlertController/ScottAlertController.h>
+
+#import <SVProgressHUD/SVProgressHUD.h>
+
+#import <YYModel/YYModel.h>
 
 
 #endif /* commonHeader_h */

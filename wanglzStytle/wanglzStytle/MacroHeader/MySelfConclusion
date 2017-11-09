@@ -1,0 +1,48 @@
+
+
+
+1.SVProgressHUD 基本使用
+
+[SVProgressHUD showWithStatus:@"点击了+号"];//带文字转圈
+[SVProgressHUD show];//只转圈
+[SVProgressHUD showProgress:0.8];//显示进度圈
+[SVProgressHUD showInfoWithStatus:@"点击了+号"];//信息小圈
+[SVProgressHUD setMinimumDismissTimeInterval:0.2]; //设置最小dismiss时间
+[SVProgressHUD showSuccessWithStatus:@"点击了+号成功"]; //
+[SVProgressHUD showErrorWithStatus:@"数据请求失败"];//
+
+[SVProgressHUD showErrorWithStatus:[NSString stringWithFormat:@"登录失败,%@",error.errorDescription]];
+[SVProgressHUD showImage:[UIImage imageNamed:@"bottomon-4@2x.png"] status:@"点击了+号"];
+
+dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+[SVProgressHUD dismiss];
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
