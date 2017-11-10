@@ -9,5 +9,7 @@ target 'wanglzStytle' do
   pod 'MJRefresh', '~> 3.1.14.1'
   pod 'YYModel', '~> 1.0.4'
   pod 'IQKeyboardManager', '~> 5.0.4'
+  pod 'XHLaunchAd', '~> 3.8.1'
+
 
 end

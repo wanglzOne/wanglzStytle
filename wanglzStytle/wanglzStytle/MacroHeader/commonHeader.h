@@ -13,6 +13,8 @@
 
 #import "MacroFunction.h"
 
+//使用WKwebview
+#import <WebKit/WebKit.h>
 
 #pragma mark ----------pods标题管理---------
 
@@ -39,5 +41,7 @@
 
 #import <YYModel/YYModel.h>
 
+//启动页广告
+#import <XHLaunchAd/XHLaunchAd.h>
 
 #endif /* commonHeader_h */

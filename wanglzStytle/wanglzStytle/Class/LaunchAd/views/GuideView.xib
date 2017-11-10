@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GuideView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG3-DS-Fm0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="BcZ-Bp-xs2">
+                    <rect key="frame" x="168" y="600" width="39" height="37"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BcZ-Bp-xs2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2Pb-LO-Z3e"/>
+                <constraint firstItem="qG3-DS-Fm0" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="Hv6-Lc-GxY"/>
+                <constraint firstItem="qG3-DS-Fm0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Xer-EL-Bvj"/>
+                <constraint firstAttribute="bottom" secondItem="BcZ-Bp-xs2" secondAttribute="bottom" constant="30" id="mCe-Ky-xXq"/>
+                <constraint firstItem="qG3-DS-Fm0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vmH-32-Jsz"/>
+                <constraint firstItem="qG3-DS-Fm0" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="yeI-le-xUb"/>
+            </constraints>
+            <connections>
+                <outlet property="page" destination="BcZ-Bp-xs2" id="9Z9-yM-stz"/>
+                <outlet property="scroll" destination="qG3-DS-Fm0" id="p6Y-mW-xCw"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

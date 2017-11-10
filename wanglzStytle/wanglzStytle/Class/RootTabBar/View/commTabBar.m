@@ -35,8 +35,15 @@
 
     /**** 设置所有UITabBarButton的frame ****/
     // 按钮的尺寸
-    CGFloat buttonW = self.frame.size.width / 5;
-    CGFloat buttonH = self.frame.size.height;
+    CGFloat TabBarHeight = self.frame.size.height;
+    CGFloat TabBarWidth = self.frame.size.width;
+
+    CGFloat buttonW = TabBarWidth / 5;
+    
+    
+    // 适配iPhoneX
+    CGFloat buttonH = kiPhoneX ? TabBarHeight - kTabbarSafeBottomMargin: TabBarHeight ;
+    
     CGFloat buttonY = 0;
     // 按钮索引
     int buttonIndex = 0;
@@ -58,7 +65,9 @@
     
     /**** 设置中间的发布按钮的frame ****/
     self.publishButton.frame = CGRectMake(0, 0, buttonW, buttonH);
-    self.publishButton.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
+    
+    
+    self.publishButton.center = CGPointMake(TabBarWidth * 0.5, buttonH * 0.5);
     
 }
 
