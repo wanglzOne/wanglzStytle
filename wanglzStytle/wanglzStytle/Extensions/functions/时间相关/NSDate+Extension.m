@@ -504,4 +504,19 @@
     return i;
 }
 
++(NSString *)stringWithDate:(NSDate *)date{
+    
+    NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
+    
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    
+    NSString*strDate = [dateFormatter stringFromDate:[NSDate date]];
+    
+    NSLog(@"%@",strDate);
+    
+    return strDate;
+}
+
+
+
 @end

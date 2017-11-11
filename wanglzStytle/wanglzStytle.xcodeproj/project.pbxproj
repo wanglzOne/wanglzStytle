@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		26F2C170B33EB480642DCE01 /* libPods-wanglzStytle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2137C5FD2E6EAD01FA980E03 /* libPods-wanglzStytle.a */; };
+		2811F72C1FB6C8EC0099104D /* UIViewController+ChooseDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811F7281FB6C8EC0099104D /* UIViewController+ChooseDate.m */; };
+		2811F72D1FB6C8EC0099104D /* ChooseDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811F7291FB6C8EC0099104D /* ChooseDateVC.m */; };
+		2811F72E1FB6C8EC0099104D /* ChooseDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2811F72A1FB6C8EC0099104D /* ChooseDateVC.xib */; };
+		2811F7411FB6E38B0099104D /* chooseDateSeondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811F73F1FB6E38B0099104D /* chooseDateSeondVC.m */; };
+		2811F7421FB6E38B0099104D /* chooseDateSeondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2811F7401FB6E38B0099104D /* chooseDateSeondVC.xib */; };
 		281DF2CB1FB43789001F5F86 /* bottomon-0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281DF2B71FB43789001F5F86 /* bottomon-0@3x.png */; };
 		281DF2CC1FB43789001F5F86 /* bottom-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281DF2B81FB43789001F5F86 /* bottom-4@2x.png */; };
 		281DF2CD1FB43789001F5F86 /* bottomon-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281DF2B91FB43789001F5F86 /* bottomon-2@2x.png */; };
@@ -50,6 +55,12 @@
 		28A084981FB5970C00C41FA0 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28A084931FB5970B00C41FA0 /* image4.jpg */; };
 		28A084991FB5970C00C41FA0 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28A084941FB5970B00C41FA0 /* image0.jpg */; };
 		28A0849A1FB5970C00C41FA0 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28A084951FB5970B00C41FA0 /* image3.jpg */; };
+		28A084A71FB5ACAF00C41FA0 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0849E1FB5ACAF00C41FA0 /* UIImage+Compress.m */; };
+		28A084A81FB5ACAF00C41FA0 /* NSString+UrlExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0849F1FB5ACAF00C41FA0 /* NSString+UrlExtension.m */; };
+		28A084A91FB5ACAF00C41FA0 /* UIImage+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A084A01FB5ACAF00C41FA0 /* UIImage+Property.m */; };
+		28A084AA1FB5ACAF00C41FA0 /* PageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A084A21FB5ACAF00C41FA0 /* PageHelper.m */; };
+		28A084AB1FB5ACAF00C41FA0 /* AFBaseNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A084A41FB5ACAF00C41FA0 /* AFBaseNetWorking.m */; };
+		28A084AF1FB5AE3A00C41FA0 /* NormalNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A084AE1FB5AE3A00C41FA0 /* NormalNetWorking.m */; };
 		A739AFDA1FB3EB2100E2C408 /* MacroStatic.m in Sources */ = {isa = PBXBuildFile; fileRef = A739AFD91FB3EB2100E2C408 /* MacroStatic.m */; };
 		A739AFDD1FB3EB7C00E2C408 /* MacroFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A739AFDC1FB3EB7C00E2C408 /* MacroFunction.m */; };
 		A739AFE51FB3F9FB00E2C408 /* UILabel+setTitleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A739AFE41FB3F9FB00E2C408 /* UILabel+setTitleColor.m */; };
@@ -65,6 +76,14 @@
 
 /* Begin PBXFileReference section */
 		2137C5FD2E6EAD01FA980E03 /* libPods-wanglzStytle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wanglzStytle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2811F7271FB6C8EC0099104D /* ChooseDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseDateVC.h; sourceTree = "<group>"; };
+		2811F7281FB6C8EC0099104D /* UIViewController+ChooseDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChooseDate.m"; sourceTree = "<group>"; };
+		2811F7291FB6C8EC0099104D /* ChooseDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseDateVC.m; sourceTree = "<group>"; };
+		2811F72A1FB6C8EC0099104D /* ChooseDateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseDateVC.xib; sourceTree = "<group>"; };
+		2811F72B1FB6C8EC0099104D /* UIViewController+ChooseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChooseDate.h"; sourceTree = "<group>"; };
+		2811F73E1FB6E38B0099104D /* chooseDateSeondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chooseDateSeondVC.h; sourceTree = "<group>"; };
+		2811F73F1FB6E38B0099104D /* chooseDateSeondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chooseDateSeondVC.m; sourceTree = "<group>"; };
+		2811F7401FB6E38B0099104D /* chooseDateSeondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = chooseDateSeondVC.xib; sourceTree = "<group>"; };
 		281DF2B71FB43789001F5F86 /* bottomon-0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomon-0@3x.png"; sourceTree = "<group>"; };
 		281DF2B81FB43789001F5F86 /* bottom-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom-4@2x.png"; sourceTree = "<group>"; };
 		281DF2B91FB43789001F5F86 /* bottomon-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomon-2@2x.png"; sourceTree = "<group>"; };
@@ -114,6 +133,18 @@
 		28A084931FB5970B00C41FA0 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
 		28A084941FB5970B00C41FA0 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
 		28A084951FB5970B00C41FA0 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		28A0849D1FB5ACAF00C41FA0 /* PageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageHelper.h; sourceTree = "<group>"; };
+		28A0849E1FB5ACAF00C41FA0 /* UIImage+Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
+		28A0849F1FB5ACAF00C41FA0 /* NSString+UrlExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlExtension.m"; sourceTree = "<group>"; };
+		28A084A01FB5ACAF00C41FA0 /* UIImage+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Property.m"; sourceTree = "<group>"; };
+		28A084A11FB5ACAF00C41FA0 /* AFBaseNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBaseNetWorking.h; sourceTree = "<group>"; };
+		28A084A21FB5ACAF00C41FA0 /* PageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageHelper.m; sourceTree = "<group>"; };
+		28A084A31FB5ACAF00C41FA0 /* UIImage+Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
+		28A084A41FB5ACAF00C41FA0 /* AFBaseNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBaseNetWorking.m; sourceTree = "<group>"; };
+		28A084A51FB5ACAF00C41FA0 /* UIImage+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Property.h"; sourceTree = "<group>"; };
+		28A084A61FB5ACAF00C41FA0 /* NSString+UrlExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlExtension.h"; sourceTree = "<group>"; };
+		28A084AD1FB5AE3A00C41FA0 /* NormalNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalNetWorking.h; sourceTree = "<group>"; };
+		28A084AE1FB5AE3A00C41FA0 /* NormalNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalNetWorking.m; sourceTree = "<group>"; };
 		441A916C6C9F05F59A260542 /* Pods-wanglzStytle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanglzStytle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanglzStytle/Pods-wanglzStytle.debug.xcconfig"; sourceTree = "<group>"; };
 		94EDBE32A0ED7D0973777AE8 /* Pods-wanglzStytle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanglzStytle.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanglzStytle/Pods-wanglzStytle.release.xcconfig"; sourceTree = "<group>"; };
 		A739AFD61FB3EACD00E2C408 /* commonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonHeader.h; sourceTree = "<group>"; };
@@ -154,6 +185,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2811F7261FB6C8EC0099104D /* chooseDate */ = {
+			isa = PBXGroup;
+			children = (
+				2811F7271FB6C8EC0099104D /* ChooseDateVC.h */,
+				2811F7291FB6C8EC0099104D /* ChooseDateVC.m */,
+				2811F72A1FB6C8EC0099104D /* ChooseDateVC.xib */,
+				2811F73E1FB6E38B0099104D /* chooseDateSeondVC.h */,
+				2811F73F1FB6E38B0099104D /* chooseDateSeondVC.m */,
+				2811F7401FB6E38B0099104D /* chooseDateSeondVC.xib */,
+				2811F72B1FB6C8EC0099104D /* UIViewController+ChooseDate.h */,
+				2811F7281FB6C8EC0099104D /* UIViewController+ChooseDate.m */,
+			);
+			path = chooseDate;
+			sourceTree = "<group>";
+		};
 		281DF2B61FB43789001F5F86 /* TabBarImg */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +318,32 @@
 			path = "启动页图片";
 			sourceTree = "<group>";
 		};
+		28A0849C1FB5ACAF00C41FA0 /* AFBaseNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				28A084A11FB5ACAF00C41FA0 /* AFBaseNetWorking.h */,
+				28A084A41FB5ACAF00C41FA0 /* AFBaseNetWorking.m */,
+				28A0849F1FB5ACAF00C41FA0 /* NSString+UrlExtension.m */,
+				28A084A61FB5ACAF00C41FA0 /* NSString+UrlExtension.h */,
+				28A0849D1FB5ACAF00C41FA0 /* PageHelper.h */,
+				28A084A21FB5ACAF00C41FA0 /* PageHelper.m */,
+				28A084A31FB5ACAF00C41FA0 /* UIImage+Compress.h */,
+				28A0849E1FB5ACAF00C41FA0 /* UIImage+Compress.m */,
+				28A084A51FB5ACAF00C41FA0 /* UIImage+Property.h */,
+				28A084A01FB5ACAF00C41FA0 /* UIImage+Property.m */,
+			);
+			path = AFBaseNetworking;
+			sourceTree = "<group>";
+		};
+		28A084AC1FB5AE1200C41FA0 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				28A084AD1FB5AE3A00C41FA0 /* NormalNetWorking.h */,
+				28A084AE1FB5AE3A00C41FA0 /* NormalNetWorking.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 		63F08CF806F4253D0EB49B90 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +378,7 @@
 		A739AFD01FB3E43B00E2C408 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				28A0849C1FB5ACAF00C41FA0 /* AFBaseNetworking */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -313,6 +386,7 @@
 		A739AFD11FB3E43B00E2C408 /* CommonView */ = {
 			isa = PBXGroup;
 			children = (
+				2811F7261FB6C8EC0099104D /* chooseDate */,
 			);
 			path = CommonView;
 			sourceTree = "<group>";
@@ -376,6 +450,7 @@
 			children = (
 				A7B6EC2F1FB30DF3008BACC2 /* AppDelegate.h */,
 				A7B6EC301FB30DF3008BACC2 /* AppDelegate.m */,
+				28A084AC1FB5AE1200C41FA0 /* NetworkManager */,
 				A739AFDE1FB3EC9B00E2C408 /* Resource */,
 				A739AFD11FB3E43B00E2C408 /* CommonView */,
 				A739AFCF1FB3E43A00E2C408 /* Class */,
@@ -527,7 +602,9 @@
 				281DF2F31FB437F3001F5F86 /* MineViewController.xib in Resources */,
 				281DF2DC1FB43789001F5F86 /* bottom-3@2x.png in Resources */,
 				281DF2DD1FB43789001F5F86 /* bottom-3@3x.png in Resources */,
+				2811F7421FB6E38B0099104D /* chooseDateSeondVC.xib in Resources */,
 				281DF2D31FB43789001F5F86 /* bottom-0@3x.png in Resources */,
+				2811F72E1FB6C8EC0099104D /* ChooseDateVC.xib in Resources */,
 				281DF2D51FB43789001F5F86 /* bottomon-4@3x.png in Resources */,
 				281DF2CF1FB43789001F5F86 /* bottom-4@3x.png in Resources */,
 				281DF2CD1FB43789001F5F86 /* bottomon-2@2x.png in Resources */,
@@ -610,17 +687,26 @@
 			files = (
 				281DF2F11FB437F3001F5F86 /* SecondViewController.m in Sources */,
 				281DF2F61FB437F3001F5F86 /* MineViewController.m in Sources */,
+				28A084AF1FB5AE3A00C41FA0 /* NormalNetWorking.m in Sources */,
+				28A084A91FB5ACAF00C41FA0 /* UIImage+Property.m in Sources */,
+				2811F7411FB6E38B0099104D /* chooseDateSeondVC.m in Sources */,
 				A739AFEB1FB4003500E2C408 /* UINavigationItem+SetOffset.m in Sources */,
+				2811F72C1FB6C8EC0099104D /* UIViewController+ChooseDate.m in Sources */,
 				A739AFDA1FB3EB2100E2C408 /* MacroStatic.m in Sources */,
 				A739AFE81FB3FA5F00E2C408 /* UIView+CornerRadius.m in Sources */,
+				28A084AB1FB5ACAF00C41FA0 /* AFBaseNetWorking.m in Sources */,
+				2811F72D1FB6C8EC0099104D /* ChooseDateVC.m in Sources */,
 				281DF2F41FB437F3001F5F86 /* MainViewController.m in Sources */,
 				281DF2E21FB437C0001F5F86 /* commTabBar.m in Sources */,
 				A7F9C19C1FB4210000CEC3DD /* RootTabBarController.m in Sources */,
+				28A084A71FB5ACAF00C41FA0 /* UIImage+Compress.m in Sources */,
 				281DF2EF1FB437F3001F5F86 /* ThirdViewController.m in Sources */,
 				A7B6EC3F1FB30DF3008BACC2 /* main.m in Sources */,
+				28A084A81FB5ACAF00C41FA0 /* NSString+UrlExtension.m in Sources */,
 				A739AFEE1FB4018C00E2C408 /* NSDate+Extension.m in Sources */,
 				28A084891FB5910800C41FA0 /* ShowAdsViewController.m in Sources */,
 				A739AFDD1FB3EB7C00E2C408 /* MacroFunction.m in Sources */,
+				28A084AA1FB5ACAF00C41FA0 /* PageHelper.m in Sources */,
 				A7B6EC311FB30DF3008BACC2 /* AppDelegate.m in Sources */,
 				A739AFE51FB3F9FB00E2C408 /* UILabel+setTitleColor.m in Sources */,
 				28A0848E1FB591A000C41FA0 /* GuideView.m in Sources */,

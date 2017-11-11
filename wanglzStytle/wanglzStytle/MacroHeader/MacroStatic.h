@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString* const  kBaiduMapKey;//百度地图 key
+extern NSString* const  kGaodeMapKey;//高得地图 key
+extern NSString* const  KBaseIP;//网络请求IP地址
+extern NSString* const  KBaseKeyWord;//IP 地址关键字
+extern NSString* const KProductPhoneNumber;
+
 #pragma  mark ----------屏幕高度相关的宏定义----------
 
 // 屏幕宽及高

@@ -25,6 +25,14 @@
     
 }
 
+-(WKWebView *)wkWeb{
+    if (!_wkWeb) {
+        _wkWeb = [[WKWebView alloc] initWithFrame:self.view.bounds];
+        [self.view addSubview:_wkWeb];
+
+    }
+    return _wkWeb;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

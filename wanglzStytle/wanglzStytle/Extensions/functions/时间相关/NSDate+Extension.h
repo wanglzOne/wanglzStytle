@@ -169,4 +169,10 @@
 ///获得在这个时间段内有多少的天数
 + (NSInteger)getWeekend:(NSDate *)data1 andWeekend:(NSDate *)data2;
 
+// wanglz 2017-11-11 设置出生日期
++(NSString *)stringWithDate:(NSDate *)date;
+
+
+
+
 @end

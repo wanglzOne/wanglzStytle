@@ -25,7 +25,7 @@
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     if ([[userDefaults objectForKey:@"showGuideKey"] integerValue] <= 0) {
         [self showGuide];
-        [userDefaults setObject:@(0) forKey:@"showGuideKey"];
+        [userDefaults setObject:@(1) forKey:@"showGuideKey"];
     }
 }
 
