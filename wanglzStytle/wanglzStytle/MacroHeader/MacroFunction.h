@@ -10,4 +10,13 @@
 
 @interface MacroFunction : NSObject
 
+
+/**
+ <#Description#>
+
+ @param totalSeconds 总共多少秒
+ @return 返回 天 时 分 秒
+ */
++ (NSString *)timeFormatted:(int)totalSeconds;
+
 @end

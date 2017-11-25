@@ -11,8 +11,10 @@
 //xib
 #import "UIViewController+ChooseDate.h"
 
-//
+//修改下拉刷新动画
+#import "ChangeRefreshAnimationVC.h"
 
+#import "DetailViewController.h"
 
 @interface MainViewController ()
 
@@ -39,10 +41,21 @@
         
     }];
 }
+//修改下拉刷新动画
+- (IBAction)changeRefreshAnimation:(id)sender {
+    ChangeRefreshAnimationVC *changeVC = [[ChangeRefreshAnimationVC alloc] init];
+    
+    [self.navigationController pushViewController:changeVC animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+//数据加载动画
+- (IBAction)loadingData:(id)sender {
+    DetailViewController *de = [[DetailViewController alloc] init];
+    [self.navigationController pushViewController:de animated:YES];
 }
 
 
