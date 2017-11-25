@@ -148,13 +148,16 @@ dispatch_async(dispatch_get_main_queue(), block);\
  */
 
 
-//弱引用  // ‘##’ 在宏的定义中可以起到拼接的作用
+// 弱引用  // ‘##’ 在宏的定义中可以起到拼接的作用
 #define LZWeakSelf(type)  __weak typeof(type) weak##type = type;
-//强引用
+// 强引用
 #define LZStrongSelf(type)  __strong typeof(type) type = weak##type;
 
 // 字符串验证
 #define StringSafe(Str) [Str isKindOfClass:[NSString class]]?Str:@""
+
+// 判断字符串是否为空
+#define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
 
 
 @interface MacroStatic : NSObject
